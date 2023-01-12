@@ -1,0 +1,132 @@
+@media    ( max-width:576px) { 
+    
+    .contact-nav{
+        display: none;
+    }
+    /* ==================== */
+    /* --------carousel ------- */
+    .carousel-caption{
+        top: 10px;
+        left: 5%;
+        width: 90% !important;
+        
+        
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+    .carousel-caption h2:is(.crs-1, .crs-2){
+    font-size: 24px !important;
+    line-height: 36px;
+    font-weight: 600;
+    
+}
+ button:is( .Quote-btn , .contact-btn){
+    width: 110px !important;
+    height: 40px !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+.Quote-btn{
+    margin-right: 20px ;
+} 
+
+}
+
+
+
+ /* ======================================= */
+ @media screen and (min-width:577px) and   ( max-width:767px) { 
+    
+    .contact-nav{
+        display: none;
+    }
+    /* ==================== */
+    /* --------carousel ------- */
+    .carousel-caption{
+        top: 10px;
+        left: 5%;
+        width: 90% !important;
+        
+        
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    .carousel-caption h2:is(.crs-1, .crs-2){
+    font-size: 52px !important;
+    line-height: 62px;
+    font-weight: 700;
+    
+}
+ button:is( .Quote-btn , .contact-btn){
+    width: 110px !important;
+    height: 40px !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+.Quote-btn{
+    margin-right: 20px ;
+} 
+
+ }
+
+ @media screen and (min-width:768px) and   ( max-width:991px) { 
+    
+    .contact-nav{
+        display: none;
+    }
+    /* ==================== */
+    /* --------carousel ------- */
+    .carousel-caption{
+        top: 30px;
+        left: 5%;
+        width: 90% !important;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    .carousel-caption h2:is(.crs-1, .crs-2){
+    font-size: 61px !important;
+    line-height: 73px;
+    font-weight: 700;
+    
+}
+ 
+.Quote-btn{
+    margin-right: 20px ;
+} 
+}
+    
+ @media screen and (min-width:992px) and ( max-width:1200px) { 
+    
+    .contact-nav{
+        display: none;
+    }
+    .navbar-nav{
+        width: 60%;
+    }
+  /* ==================== */
+    /* --------carousel ------- */
+    .carousel-caption{
+        top: 120px;
+        left: 5%;
+        width: 90% !important;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    .carousel-caption h2:is(.crs-1, .crs-2){
+    font-size: 71px !important;
+    line-height: 85px;
+    font-weight: 700;
+    }
+ }

@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: "Barlow", sans-serif;
+}
+:root{
+    --main-color:#f3525a;
+    --bg-color:#F3525A;
+}
+
+.contact-nav{
+    /* border: 1px rgb(255, 40, 25) solid; */
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F6F6;
+    overflow: hidden;
+    
+}
+.contact-nav .container{
+    width: 94% !important;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.links-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.links-container ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.links-container ul li {
+    display: inline-block; 
+    margin-top: 10px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    
+}
+.links-container ul li::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    border-left: .5px solid rgba(128, 128, 128, 0.308) ;
+    top: -5px;
+    left: 100%;
+
+}
+.links-container ul #Career::after{
+    
+    width: 0px;
+    height: 0px;
+    border:none; 
+} 
+.links-container ul li a{
+    text-decoration: none;
+    color:#6B6A75;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+
+}
+.contact-way{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+.contact-way span{
+    width: 200px;
+    display: inline-block;
+   /*  border:1px solid indianred; */
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    left: 51%;
+    color: #F6F6F6;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.contact-way .e-mail{
+    left: 54%;
+    z-index: 5;
+}
+.contact-way .tel{
+    left: 90%;
+}
+.contact-way .tel::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: #fff;
+    height: 40px;
+    left: 0px;
+    top: -32%;
+}
+.contact-way .tel::after{
+    content: "";
+    position: absolute;
+    width:255px;
+    height: 40px;
+    top: -32%;
+    background-color: #f3525a;
+    left: 0%;
+    z-index: -1;
+
+}
+.contact-way .e-mail::after{
+    left: -20%;
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: -32%;
+    background-color: #f3525a;
+    z-index:-1;
+}
+.contact-way .e-mail::before{
+    content: "";
+    position: absolute;
+    width: 49px;
+    height: 85px;
+    z-index: 4;
+    background-color: #F6F6F6;
+    left: -27%;
+    transform: rotate(-46deg);
+    top: -38%;
+}
+
+/* ========================================================== */
+
+/* ******** NAV BAR ST ********** */
+.navbar :is(.container-fluid){
+    width: 90% !important;
+    height: 80px;
+}
+.navbar-brand{
+    color: var(--main-color);
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-brand:is(:focus, :hover) {
+    color: var(--main-color);
+  }
+.navbar-nav{
+    width: 50%;
+    justify-content: space-between;
+}
+.nav-link{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0,0,0,0.9);
+    transition: color .5s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-item .nav-link:is(:hover ,:focus ,:active){
+    color: rgba(243, 82, 90,1);
+}
+/* ===================================================== */
+#carouselExampleRide::after{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 67, 88 ,.6);
+    top: 0;
+}
+
+.carousel-caption{
+    top: 180px;
+    position: absolute;
+    z-index: 3;
+    margin-bottom: 10px;
+}
+.carousel-caption p{
+    
+    font-size: 20px !important;
+    line-height: 24px;
+    font-weight: 500;
+}
+.carousel-caption h2:is(.crs-1, .crs-2){
+    font-size: 80px !important;
+    line-height: 96px;
+    font-weight: 700;
+    
+}
+
+.btn-container{
+   min-height: 100px !important;
+   overflow: auto !important;
+   top: 65%;
+}
+
+button:is( .Quote-btn , .contact-btn){
+    width: 180px !important;
+    height: initial;
+    height: 60px !important;
+    position: relative;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+   
+}
+
+.Quote-btn {
+    background-color: var(--bg-color);
+    color:#ffffff;
+
+}
+
+
+.contact-btn{
+    background-color: #fff;
+    color: #000;
+}
+/* ======================================================= */
+/* --------------------welcoming section------------------------ */
+#Welcoming .details{
+    padding-top: 80px ;
+}
+#Welcoming .details h3{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #152440;
+    margin-bottom: 20px;
+}
+#Welcoming .details h3 span{
+    color: var(--main-color);
+}
+#Welcoming .details h4{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+#Welcoming .details p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6b6a75;
+    margin-bottom: 30px;
+}
+.details .Quote-btn{
+margin-bottom: 30px;
+} 
+
+
+#Welcoming article{
+    background-color: var(--bg-color);
+    color: #fff;
+    padding-top:80px ;
+}
+#Welcoming article .services{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+#Welcoming article .services .slogan{
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.slogan span{
+    color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #152440;
+}
+.services p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
