@@ -32,6 +32,19 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/*====================================== */
+/* ---------------article -------------------- */
+
+.cards-container{
+    margin-bottom: 50px;
+}
+.cards-container .card{
+    
+    margin: 0 auto;
+    width: 90% !important;
+}
+
+
 
 }
 
@@ -72,8 +85,18 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/* ========================================== */
+/* -------------article ------------- */
+.cards-container .card{
+    
+    
+    width: 75% !important;
+}
 
- }
+
+
+
+}
 
  @media screen and (min-width:768px) and   ( max-width:991px) { 
     
@@ -102,6 +125,14 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/* ========================================== */
+/* -------------article ------------- */
+.cards-container {
+    
+    
+    width: 95% !important;
+}
+
 }
     
  @media screen and (min-width:992px) and ( max-width:1200px) { 
@@ -129,4 +160,13 @@
     line-height: 85px;
     font-weight: 700;
     }
+
+    /* ========================================== */
+/* -------------article ------------- */
+.cards-container {
+    
+    border: 2px solid red;
+    width:100% !important;
+}
+
  }
