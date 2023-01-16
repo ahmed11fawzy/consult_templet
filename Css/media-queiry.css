@@ -32,6 +32,21 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/*====================================== */
+/* ---------------article -------------------- */
+
+.cards-container{
+    margin-bottom: 50px;
+}
+
+
+/* ==================================
+    why choose us
+*/        
+.why-choose-us{
+    display: flex;
+    flex-direction: column;
+}
 
 }
 
@@ -72,8 +87,18 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/* ========================================== */
+/* -------------article ------------- */
+.cards-container .card{
+    
+    
+    width: 75% !important;
+}
 
- }
+
+
+
+}
 
  @media screen and (min-width:768px) and   ( max-width:991px) { 
     
@@ -102,6 +127,29 @@
 .Quote-btn{
     margin-right: 20px ;
 } 
+/* ========================================== */
+/* -------------article ------------- */
+.cards-container {
+    
+    
+    width: 95% !important;
+}
+/* ============================================= */
+
+.middle-cord .card-img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.middle-cord .w-100 {
+    display: inline-block;
+    width:  80% !important;
+    
+}
+
+
 }
     
  @media screen and (min-width:992px) and ( max-width:1200px) { 
@@ -129,4 +177,25 @@
     line-height: 85px;
     font-weight: 700;
     }
+
+    /* ========================================== */
+/* -------------article ------------- */
+.cards-container {
+    
+    border: 2px solid red;
+    width:100% !important;
+}
+
+/* =========================================
+==================why================== */
+.middle-cord{
+    height: 100% !important;
+}
+.middle-cord .img {
+    
+    width:  100% !important;
+    
+}
+
+
  }

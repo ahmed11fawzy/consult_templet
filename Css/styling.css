@@ -336,9 +336,10 @@ margin-bottom: 30px;
     font-size: 48px;
     line-height: 58px;
     color: var(--title_color);
-    font-weight: 700;
+    font-weight: 700; 
+    text-transform: capitalize;
 }
-.card{
+#what_offer .card{
     background-color: var(--card_bg);
     border: none;
     display: flex;
@@ -348,7 +349,7 @@ margin-bottom: 30px;
     margin-top: 10px;
     transition: margin 1s;
 }
-.card-body::after{
+#what_offer .card-body::after{
     position: absolute;
     content: '';
     width: 90%;
@@ -360,10 +361,10 @@ margin-bottom: 30px;
     border-radius: 0%;
     transition: all 1s ;
 }
-.card:is(:hover){
+#what_offer .card:is(:hover){
     margin-top: 1px;
 }
-.card:hover  .card-body::after{
+#what_offer .card:hover  .card-body::after{
     width: 100%;
     left: 0%;
     top: 90%;
@@ -397,3 +398,34 @@ article .card :is(.card-slogan){
     line-height: 24px;
     color: var(--card_text);
 }
+/* ============================================
+   ------------------why-----------------------
+*/
+.why-choose-us .slogan{
+    background-color: var(--bg-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.card-body  .btn{
+    font-size: 16px !important;
+    line-height: 24px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    
+}
+.middle-cord .img {
+    
+    width:  100% !important;
+    
+}
+
