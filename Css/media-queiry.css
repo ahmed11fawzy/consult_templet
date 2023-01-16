@@ -38,13 +38,15 @@
 .cards-container{
     margin-bottom: 50px;
 }
-.cards-container .card{
-    
-    margin: 0 auto;
-    width: 90% !important;
+
+
+/* ==================================
+    why choose us
+*/        
+.why-choose-us{
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 }
 
@@ -132,6 +134,21 @@
     
     width: 95% !important;
 }
+/* ============================================= */
+
+.middle-cord .card-img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.middle-cord .w-100 {
+    display: inline-block;
+    width:  80% !important;
+    
+}
+
 
 }
     
@@ -168,5 +185,17 @@
     border: 2px solid red;
     width:100% !important;
 }
+
+/* =========================================
+==================why================== */
+.middle-cord{
+    height: 100% !important;
+}
+.middle-cord .img {
+    
+    width:  100% !important;
+    
+}
+
 
  }

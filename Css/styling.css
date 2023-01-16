@@ -403,11 +403,29 @@ article .card :is(.card-slogan){
 */
 .why-choose-us .slogan{
     background-color: var(--bg-color);
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
 }
+.card-body  .btn{
+    font-size: 16px !important;
+    line-height: 24px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    
+}
+.middle-cord .img {
+    
+    width:  100% !important;
+    
+}
+
