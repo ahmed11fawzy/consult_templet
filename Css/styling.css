@@ -429,3 +429,24 @@ article .card :is(.card-slogan){
     
 }
 
+/* ==========================================================
+----------------contact style -------------------------------
+*/
+.bg-color{
+    background-color: var(--card_bg);
+}
+.img-h{
+    height: 505px;
+}
+.form-control-lg{
+    
+    transition: padding 1s ,box-shadow 1s , border-color 1s ;
+
+}
+.form-control-lg:focus{
+    box-shadow: 0 0 0 .25rem rgba(243,82,90,0.25);
+    border-color: #f9a9ad;
+    padding-top: -5px !important;
+    outline: none;
+    border-color: #f9a9ad !important;
+}
