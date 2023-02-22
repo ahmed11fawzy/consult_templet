@@ -440,13 +440,37 @@ article .card :is(.card-slogan){
 }
 .form-control-lg{
     
-    transition: padding 1s ,box-shadow 1s , border-color 1s ;
+    transition:box-shadow 1s , border-color 1s ,height 1s ;
 
 }
+
 .form-control-lg:focus{
     box-shadow: 0 0 0 .25rem rgba(243,82,90,0.25);
     border-color: #f9a9ad;
-    padding-top: -5px !important;
+    /* padding-top: -5px !important; */
     outline: none;
     border-color: #f9a9ad !important;
+}
+.btn{
+    height: 50px !important;
+    color: rgba(238, 238, 238,1);
+    transition: color 1s , background-color 1s;
+}
+.btn:hover{
+    color:rgba(0, 0, 0,.9) !important;
+    background-color: rgba(245, 108, 115,.9) !important ;
+}
+label[for="mail"],label[for="name"]{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6B6A75;
+    transform: translate(10px,10px);
+    transition: font-size 1s,transform 1s ;
+} 
+/* ------------------------------ */
+.he_wid{
+    width: 90%;
+}
+.h-70{
+    height: 70px;
 }
