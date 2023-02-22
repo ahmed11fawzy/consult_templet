@@ -468,9 +468,25 @@ label[for="mail"],label[for="name"]{
     transition: font-size 1s,transform 1s ;
 } 
 /* ------------------------------ */
-.he_wid{
-    width: 90%;
+#ourMember .card{
+    overflow: hidden;
 }
-.h-70{
-    height: 70px;
+.card .card-img-overlay{
+    transform: translate(-100%,250px);
+    transition: transform 1s;
+    background-color: #F3525A;
+}
+.card-img-overlay::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    
+    border-width: 30px;
+    border-style: solid;
+    border-color:  transparent  transparent  transparent #F3525A;
+}
+#ourMember .card:hover .card-img-overlay{
+    transform: translate(0%,250px);
+
 }
