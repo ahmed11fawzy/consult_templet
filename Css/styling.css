@@ -470,18 +470,27 @@ label[for="mail"],label[for="name"]{
 /* ------------------------------ */
 #ourMember .card{
     overflow: hidden;
+    transition: padding 1s;
 }
 .card .card-img-overlay{
     transform: translate(-100%,250px);
     transition: transform 1s;
     background-color: #F3525A;
 }
+#ourMember .card-img{
+    transform: scale(1.15);
+    margin-left: -30px;
+    transition: .5s;
+    transition-property: all 0.5s;
+    
+    
+   
+}
 .card-img-overlay::after{
     content: "";
     position: absolute;
     top: 25%;
     left: 100%;
-    
     border-width: 30px;
     border-style: solid;
     border-color:  transparent  transparent  transparent #F3525A;
@@ -489,4 +498,72 @@ label[for="mail"],label[for="name"]{
 #ourMember .card:hover .card-img-overlay{
     transform: translate(0%,250px);
 
+}
+#ourMember .card:hover .card-img{
+    margin-left: 0px;
+}
+
+/* ============================================================ */
+#clientsOpp{
+    margin-block: 100px;
+}
+#clientsOpp img{
+    height: 500px;
+}
+.bg-semi_gray{
+    background-color: #F6F6F6;
+    
+}
+#clientsOpp .carousel-control-next,#clientsOpp .carousel-control-prev{
+    all: unset;
+    background-color: rgba(243, 82, 90,1);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 9;
+    top: 250px;
+    transition: background-color 1s;
+}
+#clientsOpp .carousel-control-next{
+    left: 60px;
+}
+
+#clientsOpp .carousel-control-next-icon,
+#clientsOpp .carousel-control-prev-icon{
+    background-image:none;
+    color: rgba(238, 238, 238,1);
+    text-align: center;
+    padding-top: 5px;
+    transition: color 1s;
+    
+}
+#clientsOpp .carousel-control-next:focus,
+#clientsOpp .carousel-control-next:hover, 
+#clientsOpp .carousel-control-prev:focus, 
+#clientsOpp .carousel-control-prev:hover{
+    background-color: rgba(245, 108, 115,.9);
+}
+#clientsOpp .carousel-control-next:hover .carousel-control-next-icon,
+#clientsOpp .carousel-control-prev:hover .carousel-control-prev-icon{
+    color: rgba(0, 0, 0,.9);
+}
+.oppinian{
+    font-size:24px;
+    line-height: 36px;
+    color: #6b6a75;
+    font-weight: 400;
+}
+/* ========================================= */
+#latestBlog .card-img{
+    all: unset;
+}
+.w_h{
+    width: 95%;
+    height: 300px;
+}
+#clientsOpp .carousel-inner img{
+    width: 70px;
+    height: 70px;
 }

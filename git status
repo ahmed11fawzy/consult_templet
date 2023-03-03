@@ -1,0 +1,41 @@
+[33mcommit cbc1ccb1ce101dec36b8fee3745eb2600cc41949[m[33m ([m[1;36mHEAD -> [m[1;32mupdating[m[33m, [m[1;31morigin/updating[m[33m)[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Wed Feb 22 02:56:52 2023 +0200
+
+    fix contact Section bug and add our member section
+
+[33mcommit 28c91c276fb63c4699d0b0e3353e6ca90b36a0e2[m[33m ([m[1;31mconsult_templet/updating[m[33m)[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Tue Jan 24 10:33:01 2023 +0200
+
+    adding contact section
+
+[33mcommit 2591bcd3d4937976b97126b9fa1dee7d826c7bf8[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Tue Jan 17 01:24:42 2023 +0200
+
+    make why choosig us section more responsive
+
+[33mcommit 2db843b777dd151f24ef0529528acdebae4b2918[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Sun Jan 15 04:10:30 2023 +0200
+
+     add why choose us
+
+[33mcommit 1c86fcd95910e5a2cdf686c9af98393ccab5097b[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Sat Jan 14 21:28:35 2023 +0200
+
+     make article section is more resposive
+
+[33mcommit b2bbd4568f00572eaf0f66152cdd2e3f1c258451[m[33m ([m[1;32mmaster[m[33m)[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Fri Jan 13 00:21:39 2023 +0200
+
+     article what we offer styling
+
+[33mcommit e2563f96bf108ef183ba79424a8df01784f899d3[m
+Author: ahmed <af6394158@gmil.com>
+Date:   Thu Jan 12 21:27:15 2023 +0200
+
+    adding files to local repo
